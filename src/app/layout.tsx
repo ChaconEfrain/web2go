@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Web2Go",
   description: "Páginas web rápidas y de calidad.",
+  icons: {
+    icon: "/web2go.svg",
+  },
 };
 
 export default function RootLayout({
