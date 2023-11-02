@@ -6,9 +6,34 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Web2Go",
-  description: "Páginas web rápidas y de calidad.",
+  description: "Páginas web rápidas y de calidad, hechas a tu medida.",
+  keywords: [
+    "Páginas web",
+    "Web",
+    "Performance",
+    "Velocidad",
+    "Eficicencia",
+    "Carga rápida",
+    "Optimización",
+    "SEO",
+    "Diseño web",
+    "Desarrollo web",
+    "Web2Go",
+  ],
   icons: {
     icon: "/web2go.svg",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://www.web2go.com.mx/",
+    title: "Web2Go",
+    description: "Páginas web rápidas y de calidad, hechas a tu medida.",
+    siteName: "Web2Go",
+    images: [
+      {
+        url: "https://www.web2go.com.mx/img/web2go.webp",
+      },
+    ],
   },
 };
 
