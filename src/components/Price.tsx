@@ -21,7 +21,7 @@ export default function Price() {
               </span>
               <div className="mb-1">
                 <span className="text-3xl lg:text-4xl font-extrabold">
-                  $2500 MXN
+                  $3500 MXN
                 </span>
               </div>
               <p className="text-gray-600 text-sm font-medium">
