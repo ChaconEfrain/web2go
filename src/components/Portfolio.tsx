@@ -1,4 +1,4 @@
-import { Building, Cutlery, Sports } from "@/icons";
+import { Building, Cutlery, Sports, Tax } from "@/icons";
 import React from "react";
 
 export default function Portfolio() {
@@ -15,16 +15,17 @@ export default function Portfolio() {
         </div>
         <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <a
-            href="https://www.lacanastayucateca.com/"
+            href="https://www.agrtaxesandinsurances.com/en"
             target="_blank"
-            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center"
+            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center sm:col-span-2 lg:col-span-1"
           >
-            <Cutlery className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
-            <h4 className="text-lg font-bold mb-2">La canasta yucateca</h4>
+            <Tax className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
+            <h4 className="text-lg font-bold mb-2">AGR Taxes and insurances</h4>
             <p className="leading-relaxed text-gray-500 text-sm text-left">
-              La canasta yucateca es un negocio de tacos de canasta ubicado en
-              Mérida, Yucatán. Para el diseño de la página se optó por algo
-              sencillo con colores alegres y característicos de la marca.
+              AGR es un vendedor de seguros y contador independiente en el área
+              de St Louis MO e Illinois, EU. Gracias a su nueva página web podrá
+              compartir sus servicios a prospectos en español ó inglés, al igual
+              que recibirá correos automatizados por medio de un formulario.
             </p>
           </a>
           <a
@@ -41,16 +42,16 @@ export default function Portfolio() {
             </p>
           </a>
           <a
-            href="https://mayasport.vercel.app/"
+            href="https://www.lacanastayucateca.com/"
             target="_blank"
-            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center sm:col-span-2 lg:col-span-1"
+            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center"
           >
-            <Sports className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
-            <h4 className="text-lg font-bold mb-2">Maya sports</h4>
+            <Cutlery className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
+            <h4 className="text-lg font-bold mb-2">La canasta yucateca</h4>
             <p className="leading-relaxed text-gray-500 text-sm text-left">
-              Maya sports tiene todo tipo de artículos para ballet y fútbol
-              americano. En éste caso el diseño de la página fue proporcionado
-              por el cliente y nosotros lo volvimos realidad.
+              La canasta yucateca es un negocio de tacos de canasta ubicado en
+              Mérida, Yucatán. Para el diseño de la página se optó por algo
+              sencillo con colores alegres y característicos de la marca.
             </p>
           </a>
         </div>
