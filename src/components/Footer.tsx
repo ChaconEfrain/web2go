@@ -26,7 +26,7 @@ export default function Footer() {
           <span className="font-medium">
             Web<span className="text-blue-600">2</span>Go
           </span>{" "}
-          © {new Date().getFullYear()}
+          © {new Date(Date.now()).getFullYear()}
         </div>
       </div>
     </footer>
