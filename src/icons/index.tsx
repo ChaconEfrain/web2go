@@ -43,68 +43,6 @@ export function Whatsapp({ className }: Props) {
   );
 }
 
-export function Cutlery({ className }: Props) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      className={className}
-      viewBox="0 0 24 24"
-    >
-      <path stroke="none" d="M0 0h24v24H0z"></path>
-      <path d="M19 3v12h-5c-.023-3.681.184-7.406 5-12zm0 12v6h-1v-3M8 4v17M5 4v3a3 3 0 106 0V4"></path>
-    </svg>
-  );
-}
-
-export function Building({ className }: Props) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      className={className}
-      viewBox="0 0 24 24"
-    >
-      <path stroke="none" d="M0 0h24v24H0z"></path>
-      <path d="M19 12h2l-9-9-9 9h2v7a2 2 0 002 2h5.5"></path>
-      <path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2M16 19h6M19 16v6"></path>
-    </svg>
-  );
-}
-
-export function Sports({ className }: Props) {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      fill="none"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth="2"
-      className={className}
-      viewBox="0 0 24 24"
-    >
-      <path stroke="none" d="M0 0h24v24H0z"></path>
-      <path d="M15 9l-6 6M10 12l2 2M12 10l2 2M8 21a5 5 0 00-5-5"></path>
-      <path d="M16 3C8.82 3 3 8.82 3 16a5 5 0 005 5c7.18 0 13-5.82 13-13a5 5 0 00-5-5M16 3a5 5 0 005 5"></path>
-    </svg>
-  );
-}
-
 export function Device({ className }: Props) {
   return (
     <svg
@@ -204,6 +142,48 @@ export function Tax({ className }: Props) {
       <path stroke="none" d="M0 0h24v24H0z"></path>
       <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2"></path>
       <path d="M9 5a2 2 0 012-2h2a2 2 0 012 2v0a2 2 0 01-2 2h-2a2 2 0 01-2-2zM14 11h-2.5a1.5 1.5 0 000 3h1a1.5 1.5 0 010 3H10M12 17v1m0-8v1"></path>
+    </svg>
+  );
+}
+
+export function Speaker({ className }: Props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      className={className}
+      viewBox="0 0 24 24"
+    >
+      <path stroke="none" d="M0 0h24v24H0z"></path>
+      <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2z"></path>
+      <path d="M9 14a3 3 0 106 0 3 3 0 10-6 0M12 7v.01"></path>
+    </svg>
+  );
+}
+
+export function Truck({ className }: Props) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      fill="none"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      className={className}
+      viewBox="0 0 24 24"
+    >
+      <path stroke="none" d="M0 0h24v24H0z"></path>
+      <path d="M5 17a2 2 0 104 0 2 2 0 10-4 0M15 17a2 2 0 104 0 2 2 0 10-4 0"></path>
+      <path d="M5 17H3V6a1 1 0 011-1h9v12m-4 0h6m4 0h2v-6h-8m0-5h5l3 5"></path>
     </svg>
   );
 }

@@ -1,4 +1,4 @@
-import { Building, Cutlery, Sports, Tax } from "@/icons";
+import { Speaker, Tax, Truck } from "@/icons";
 import React from "react";
 
 export default function Portfolio() {
@@ -15,6 +15,36 @@ export default function Portfolio() {
         </div>
         <div className="grid grid-cols-1 gap-4 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <a
+            href="https://www.basswaves.com.mx/es"
+            target="_blank"
+            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center"
+          >
+            <Speaker className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
+            <h4 className="text-lg font-bold mb-2">Basswaves</h4>
+            <p className="leading-relaxed text-gray-500 text-sm text-left">
+              Basswaves es un negocio de renta de equipo para DJ y eventos
+              sociales en general. Gracias a su página web en inglés y español,
+              ahora los usuarios pueden saber las fechas y los equipos
+              disponibles para sus eventos.
+            </p>
+          </a>
+          <a
+            href="https://www.spsur.mx/"
+            target="_blank"
+            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center"
+          >
+            <Truck className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
+            <h4 className="text-lg font-bold mb-2">
+              Servicios Procargo del Sureste
+            </h4>
+            <p className="leading-relaxed text-gray-500 text-sm text-left">
+              Servicios procargo del sureste es una empresa líder de transporte
+              en la zona de la península. Con su página web de tipo landing page
+              ahora sus prospectos pueden visualizar los servicios que ofrecen y
+              contactarlos por medio de un formulario ó un botón de WhatsApp.
+            </p>
+          </a>
+          <a
             href="https://www.agrtaxesandinsurances.com/en"
             target="_blank"
             className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center sm:col-span-2 lg:col-span-1"
@@ -26,32 +56,6 @@ export default function Portfolio() {
               de St Louis MO e Illinois, EU. Gracias a su nueva página web podrá
               compartir sus servicios a prospectos en español ó inglés, al igual
               que recibirá correos automatizados por medio de un formulario.
-            </p>
-          </a>
-          <a
-            href="https://fiberpole.vercel.app/"
-            target="_blank"
-            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center"
-          >
-            <Building className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
-            <h4 className="text-lg font-bold mb-2">Fiberpole</h4>
-            <p className="leading-relaxed text-gray-500 text-sm text-left">
-              Fiberpole viste tu hogar ó espacios públicos con elementos a base
-              de fibra de vidrio. La página tiene un diseño minimalista con alto
-              contenido gráfico y descriptivo.
-            </p>
-          </a>
-          <a
-            href="https://www.lacanastayucateca.com/"
-            target="_blank"
-            className="p-10 bg-gradient-to-t from-blue-50 to-white border-2 border-blue-50 hover:border-blue-100 transition-all duration-300 rounded-2xl text-center"
-          >
-            <Cutlery className="w-12 h-12 text-blue-500 mb-5 mx-auto" />
-            <h4 className="text-lg font-bold mb-2">La canasta yucateca</h4>
-            <p className="leading-relaxed text-gray-500 text-sm text-left">
-              La canasta yucateca es un negocio de tacos de canasta ubicado en
-              Mérida, Yucatán. Para el diseño de la página se optó por algo
-              sencillo con colores alegres y característicos de la marca.
             </p>
           </a>
         </div>
